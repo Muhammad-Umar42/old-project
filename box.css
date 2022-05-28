@@ -1,0 +1,28 @@
+.box {
+  background-color: blue;
+  font-style: italic;
+  color: blanchedalmond;
+  padding: 10px;
+  text-align: center;
+}
+.box h1 {
+  font-size: 50px;
+  background-repeat: repeat-y;
+}
+.nd ol {
+  padding-left: 0;
+}
+.nd li {
+  background-color: gray;
+  padding: 05px 5px 5px 10px;
+  font-size: 25px;
+  list-style: none;
+}
+.wh:hover {
+  color: white !important;
+  border: 5px solid blue !important;
+}
+.nd li:hover {
+  color: tomato;
+  border: 5px dotted black;
+}

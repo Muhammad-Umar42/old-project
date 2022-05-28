@@ -1,0 +1,34 @@
+.box label {
+  display: block;
+  padding: 5px;
+}
+body {
+  font-size: 30px;
+}
+.box input {
+  margin: 10px;
+  width: -webkit-fill-available;
+  display: block;
+  padding: 20px;
+  border-radius: 50px;
+}
+.box {
+  background-color: rgb(214, 208, 208);
+  width: 100%;
+  box-sizing: border-box;
+}
+.box button {
+  background-color: rgb(31, 228, 31);
+}
+.box button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 50px;
+  color: white;
+  margin-bottom: 30px;
+  border: none;
+  transition: all 0.5s;
+}
+button:hover {
+  background-color: violet;
+}

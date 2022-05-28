@@ -1,0 +1,65 @@
+div {
+  background-image: url(./phase-1/Gym.jpg);
+  padding: 300px;
+  padding-left: 0;
+}
+.had {
+  color: whitesmoke;
+  background-color: black;
+  display: inline;
+  opacity: 0.5;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+}
+form label {
+  display: block;
+  font-size: 30px;
+  color: rgb(167, 167, 247);
+}
+form input {
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 20px;
+  margin-bottom: 20px;
+  display: block;
+}
+input:focus {
+  outline: none;
+}
+form {
+  background-color: rgba(0, 0, 0, 0.473);
+  display: inline-block;
+  border-radius: 20px;
+  border: 2px solid black;
+  position: absolute;
+  right: 17px;
+  box-shadow: 0px 0px 10px 3px black;
+  padding: 10px;
+}
+input:hover {
+  color: white;
+  background-color: black;
+}
+button {
+  padding-left: 30px;
+  background-color: transparent;
+  color: white;
+  border-top: 3px solid black;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+button:focus {
+  outline: none;
+}
+button:hover {
+  border: 5px solid white;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  background-color: black;
+  border-radius: 20px;
+}
